@@ -1,0 +1,35 @@
+{
+  "private": true,
+  "name": "nextjs-template",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "type-check": "tsc",
+    "lint": "next lint"
+  },
+  "version": "1.0.0",
+  "description": "Next.js template",
+  "repository": "https://github.com/Redknife/nextjs-template",
+  "author": "Sergei Rogachev <redknife183@gmail.com> (https://github.com/Redknife)",
+  "license": "MIT",
+  "dependencies": {
+    "@radix-ui/colors": "0.1.8",
+    "@stitches/react": "^1.2.8",
+    "next": "^12.2.3",
+    "next-themes": "0.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.0.0",
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "@typescript-eslint/eslint-plugin": "5.31.0",
+    "eslint": "8.20.0",
+    "eslint-config-next": "12.2.3",
+    "eslint-plugin-prettier": "4.2.1",
+    "prettier": "2.7.1",
+    "typescript": "^4.7.4"
+  }
+}

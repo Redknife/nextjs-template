@@ -1,0 +1,11 @@
+{
+  "root": true,
+  "extends": [
+    "next",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "plugins": ["@typescript-eslint", "prettier"],
+  "rules": {
+    "prettier/prettier": "error"
+  }
+}
